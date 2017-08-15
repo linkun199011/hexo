@@ -79,5 +79,5 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
 type: git
-repo: git@github.com:linkun199011/newGitBook2.git
+repo: git@github.com:linkun199011/hexo.git
 branch: master

@@ -1,7 +1,7 @@
 ---
 title: 如何构建利用github配合hexo构建一个网站
 date: 2017-08-15 13:51:44
-tags: #github #gitbook #hexo
+tags: github, gitbook, hexo
 ---
 
 # 安装hexo
