@@ -47,11 +47,11 @@ $ npm install
 └── themes
 ```
 
-### \_config.yml
+## \_config.yml
 
 网站的 配置 信息，您可以在此配置大部分的参数。
 
-### package.json
+## package.json
 
 应用程序的信息。EJS, Stylus 和 Markdown renderer 已默认安装，您可以自由移除。
 
@@ -79,18 +79,18 @@ package.json
 }
 ```
 
-### scaffolds
+## scaffolds
 
 模版 文件夹。当您新建文章时，Hexo 会根据 scaffold 来建立文件。
 
 Hexo的模板是指在新建的markdown文件中默认填充的内容。例如，如果您修改scaffold/post.md中的Front-matter内容，那么每次新建一篇文章时都会包含这个修改。
 
 
-### source
+## source
 
 资源文件夹是存放用户资源的地方。除 \_posts 文件夹之外，开头命名为 _ (下划线)的文件 / 文件夹和隐藏的文件将会被忽略。Markdown 和 HTML 文件会被解析并放到 public 文件夹，而其他文件会被拷贝过去。
 
-### themes
+## themes
 
 主题 文件夹。Hexo 会根据主题来生成静态页面。
 
@@ -98,12 +98,21 @@ Hexo的模板是指在新建的markdown文件中默认填充的内容。例如�
 
 # 发布到github
 
+
 整个hexo文件夹下有两个部分组成:
 
 > 1. hexo: 整个hexo的网站构建模块, 包括node_modules 以及 其他的配置文件都在该文件夹下.  
 > 2. public: 通过hexo新建的文件, 已经最终构造出来的样式被保存在这个文件夹下面.  
 
 正常来讲, 如果作为博客, 只需要将public下的所有内容push到github的linkun199011.github.io工程即可, 将该工程设置成gitbook, 就能够达到做成博客的目的.    
+
 但是, 为了让我整个hexo工程可以跨平台跨主机工作, 我还是将整个hexo工程push到了github 的 hexo 工程.    
+
 这样, 利用 `hexo new someFile` 则就会在 `source/_posts/` 文件夹下面创造出对应的文件, 文件修改完毕后, `hexo g`, 然后就在 `public`文件夹下面生产了相应的html.   
+
 这个时候需要在hexo根目录push一下, 然后再到public目录下push一下.
+
+```
+hexo new someFile // 新建某个文件
+hexo g  // 同: hexo generate , 生成html文件
+```
