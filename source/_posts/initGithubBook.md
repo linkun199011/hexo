@@ -18,6 +18,8 @@ root@xxxxxxxxxx:~# npm config set unsafe-perm true
 root@xxxxxxxxxx:~# npm install -g hexo
 ```
 
+<!-- more -->
+
 更多的hexo使用技巧请参考:
 
 https://hexo.io/zh-cn/docs/setup.html 建站指南
