@@ -8,9 +8,9 @@ subtitle:
 description:
 author: LinKun
 language: 
-- zh-cn
-- zh-tw
+- zh-Hans
 - en
+- zh-tw
 timezone:
 
 # URL
