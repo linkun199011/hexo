@@ -6,11 +6,10 @@ tags: linux
 
 #  罗列常用的linux命令
 
+<!-- more -- >
 
 ## 查找命令
 
-
-<!-- more -->
 
 ```
 
@@ -23,7 +22,6 @@ find . -name "*abc"
 sudo rm /var/lib/apt/lists/lock
 
 // note: the src and dest should be full path, otherwise it won't work
-
 ln -s [src path] [dest path]
 
 
@@ -121,5 +119,6 @@ edb的安装：
 #make install
 #exit
 $edb
+
 
 ```
